@@ -1,259 +1,118 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
-#navi {
-    /*background-color: rgb(51, 51, 51);*/
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    height: 45px;
-    line-height: 5px;
-    backdrop-filter: saturate(180%) blur(20px);
-}
-
-ul {
-    list-style-type: none;
-    word-spacing: 75px;
-}
-
-li {
-    display: inline;
-    line-height: 8px;
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont;
-    font-weight: 280;
-    font-size: 13.5px;
-}
-
-#shopnow {
-    background-color: rgb(245, 245, 247);
-    position: absolute;
-    top: 44px;
-    height: 42px;
-    width: 100%;
-}
-
-p {
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont;
-    font-size: 14px;
-    font-weight: 300;
-}
-
-
-/*img{
-    width:100%;
-}*/
-
-#title {
-    position: absolute;
-    top: 76px;
-    width: 50%;
-    color: white;
-    font-size: 56px;
-    font-weight: 480;
-    left: 348px;
-}
-
-#list {
-    position: absolute;
-    left: -56px;
-    z-index: 2;
-    bottom: 40%;
-    opacity: 0.8;
-}
-
-#subtitle {
-    position: absolute;
-    top: 176px;
-    width: 40%;
-    color: white;
-    font-size: 28px;
-    font-weight: 320;
-    left: 420px;
-}
-
-#sub2 {
-    position: absolute;
-    top: 232px;
-    width: 40%;
-    color: rgb(11, 128, 206);
-    font-size: 19px;
-    font-weight: 320;
-    left: 586px;
-    font-family: -apple-system, BlinkMacSystemFont;
-}
-
-#main {
-    background-image: url("../images/test.jpeg");
-    width: 3008px;
-    height: 738px;
-    /*background-size:3008px 738px;*/
-    background-repeat: no-repeat;
-    position: absolute;
-    right: -815px;
-    z-index: -1;
-    top: 5px;
-    transform: scale(0.783);
-}
-
-#tst {
-    z-index: 2;
-}
-
-#apple {
-    width: 42px;
-    height: 42px;
-    position: relative;
-    top: 16px;
-    left: 20px;
-}
-
-#iphone {
-    background-image: url("../images/iphone12.jpeg");
-    width: 3010px;
-    height: 624px;
-    /*background-size:3008px 738px;*/
-    background-repeat: no-repeat;
-    position: absolute;
-    right: -818px;
-    z-index: -1;
-    top: 657px;
-    transform: scale(1.0);
-}
-
-#iph {
-    position: absolute;
-    top: 662px;
-    width: 50%;
-    color: black;
-    font-size: 56px;
-    font-weight: 480;
-    left: 348px;
-}
-
-#iph2 {
-    position: absolute;
-    top: 766px;
-    width: 40%;
-    color: black;
-    font-size: 27px;
-    font-weight: 320;
-    left: 412px;
-}
-
-#search {
-    width: 18px;
-    height: 50px;
-    position: relative;
-    top: 23px;
-    right: -1120px;
-    z-index: 2;
-    transition: 0.3s;
-}
-
-#cart {
-    width: 42px;
-    height: 42px;
-    position: relative;
-    top: 16px;
-    right: -1100px;
-}
-
-#iph3 {
-    position: absolute;
-    top: 822px;
-    width: 40%;
-    color: rgb(128, 125, 125);
-    font-size: 17px;
-    font-weight: 320;
-    left: 412px;
-}
-
-#iph4 {
-    position: absolute;
-    top: 862px;
-    width: 40%;
-    color: rgb(11, 128, 206);
-    font-size: 19px;
-    font-weight: 320;
-    left: 586px;
-    font-family: -apple-system, BlinkMacSystemFont;
-}
-
-#navi {
-    position: fixed;
-    z-index: 4;
-    background-color: transparent;
-}
-
-#blur {
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    height: 45px;
-    line-height: 5px;
-    opacity: 0.8;
-    backdrop-filter: saturate(180%) blur(20px);
-    background-color: black;
-    z-index: 4;
-}
-
-#blur {
-    position: fixed;
-}
-
-.hov {
-    opacity: 0.8;
-    transition: 0.3s;
-}
-
-.hov:hover {
-    opacity: 1;
-}
-
-#imac {
-    background-image: url("../images/imac.jpeg");
-    width: 3010px;
-    height: 624px;
-    /*background-size:3008px 738px;*/
-    background-repeat: no-repeat;
-    position: absolute;
-    right: -820px;
-    z-index: -1;
-    top: 1260px;
-    transform: scale(1);
-}
-
-#imc {
-    position: absolute;
-    top: 1282px;
-    width: 50%;
-    color: black;
-    font-size: 56px;
-    font-weight: 480;
-    left: 337px;
-}
-
-#imc2 {
-    position: absolute;
-    top: 1380px;
-    width: 40%;
-    color: black;
-    font-size: 27px;
-    font-weight: 344;
-    left: 405px;
-}
-
-#imc3 {
-    position: absolute;
-    top: 1436px;
-    width: 40%;
-    color: rgb(14, 117, 185);
-    font-size: 20px;
-    font-weight: 350;
-    left: 574px;
-    font-family: -apple-system, BlinkMacSystemFont;
-}
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    p {
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    /* navigation bar */
+    
+    nav {
+        position: fixed;
+        top: 0px;
+        backdrop-filter: saturate(180%) blur(20px);
+        width: 100%;
+        height: 44px;
+    }
+    
+    #blur {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 44px;
+        opacity: 0.8;
+        /* backdrop-filter: saturate(180%) blur(20px); */
+        background-color: black;
+        z-index: 5;
+    }
+    
+    #navigation div {
+        position: relative;
+        top: -17px;
+    }
+    
+    #list {
+        width: 55%;
+        height: 45px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont;
+        font-weight: 280;
+        font-size: 15px;
+        list-style-type: none;
+        z-index: 5;
+    }
+    
+    .hov {
+        flex-basis: 7%;
+        margin: 0px;
+        padding: 0px;
+        height: 15px;
+        z-index: 5;
+        align-self: center;
+    }
+    
+    #list img {
+        width: 45px;
+        height: 45px;
+    }
+    
+    #search img {
+        width: 18px;
+        height: 50px;
+        position: relative;
+        bottom: 15px;
+        left: 16px;
+    }
+    
+    #apple img {
+        position: relative;
+        bottom: 14px;
+    }
+    
+    #cart img {
+        position: relative;
+        bottom: 14px;
+        height: 45px;
+        width: 45px;
+    }
+    
+    .hov {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: -.01em;
+        font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        color: #f5f5f7;
+        opacity: 0.8;
+        transition: 0.3s;
+    }
+    
+    .hov:hover {
+        opacity: 1;
+    }
+    /* Covid Special Shop Now */
+    
+    #shopnow {
+        background-color: rgb(245, 245, 247);
+        position: absolute;
+        top: 45px;
+        height: 42px;
+        width: 100%;
+        z-index: -1;
+        font-size: 14px;
+        display: inline-block;
+        padding: 12px 0;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        background-color: #fff;
+        color: #1d1d1f;
+        font-style: normal;
+    }
